@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on JD Hagood&#39;s Personal Portfolio</title>
-    <link>https://jdhagood.github.io/personal_portfolio/categories/</link>
+    <link>https://jdhagood.github.io/personal_project_portfolio/categories/</link>
     <description>Recent content in Categories on JD Hagood&#39;s Personal Portfolio</description>
     <generator>Hugo -- 0.134.1</generator>
     <language>en</language>
     <copyright>JD Hagood</copyright>
-    <atom:link href="https://jdhagood.github.io/personal_portfolio/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jdhagood.github.io/personal_project_portfolio/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
