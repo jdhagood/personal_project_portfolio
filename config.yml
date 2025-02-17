@@ -27,7 +27,7 @@ languages:
     menu:
       main:
         - name: Projects
-          url: /projects/
+          url: personal_project_portfolio/projects/
           weight: 5
     params:
       profileMode:
@@ -40,7 +40,7 @@ languages:
         subtitle: This website has some of my personal projects that I have worked on during my time at MIT.
         buttons:
           - name: Projects
-            url: /projects/
+            url: personal_project_portfolio//projects/
 
 outputs:
   home:
