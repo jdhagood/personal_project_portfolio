@@ -1,0 +1,94 @@
+baseURL: ""
+title: JD Hagood's Personal Portfolio
+copyright: "© JD Hagood"
+paginate: 5
+theme: [PaperMod]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod"]
+
+minify:
+  disableXML: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Projects
+          url: /projects/
+          weight: 5
+    params:
+      profileMode:
+        enabled: true
+        title: JD Hagood
+        imageUrl: /images/profile.jpg  # Make sure this path is correct
+        imageWidth: 500 # Adjust as needed
+        imageHeight: 500 # Adjust as needed
+        imageTitle: Profile picture of JD Hagood
+        subtitle: This website has some of my personal projects that I have worked on during my time at MIT.
+        buttons:
+          - name: Projects
+            url: /projects/
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  description: "JD Hagood's personal portfolio website, showcasing projects and blogs."
+  author: JD Hagood
+
+  defaultTheme: auto
+  ShowShareButtons: true
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+
+  homeInfoParams:
+    Title: "Welcome to JD Hagood's Portfolio"
+    Content: >
+      👋 Hi there! I'm JD, a passionate maker and coder. Here, you'll find my projects and musings.
+
+      - **Projects:** Explore things I've built, from microcontroller circuits to web apps.
+
+  socialIcons:
+    - name: github
+      title: My GitHub
+      url: "https://github.com/jdhagood"
+
+  assets:
+    disableHLJS: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
