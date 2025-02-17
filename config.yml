@@ -33,7 +33,7 @@ languages:
       profileMode:
         enabled: true
         title: JD Hagood
-        imageUrl: /images/profile.jpg  # Make sure this path is correct
+        imageUrl: personal_project_portfolio//images/profile.jpg  # Make sure this path is correct
         imageWidth: 500 # Adjust as needed
         imageHeight: 500 # Adjust as needed
         imageTitle: Profile picture of JD Hagood

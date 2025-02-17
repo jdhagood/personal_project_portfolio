@@ -12,8 +12,8 @@ I am currently taking the class How To Make Almost Eeverything, and during the p
 
 {{< rawhtml >}}
     <div class="image-grid">
-        <img src="/images/3d_printed_clothes/special_fil.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
-        <img src="/images/3d_printed_clothes/onshape_cad.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
+        <img src="personal_project_portfolio/images/3d_printed_clothes/special_fil.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
+        <img src="./images/3d_printed_clothes/onshape_cad.jpg" alt="Image 1" style="width: 60%; height: auto; display: block; margin: 0 auto;">
     </div>
 {{< /rawhtml >}}
 Now it was time to start printing. I knew that I wanted my clothes to look unique and catch the attention of anyone who walked by, so I decided to print with OOVID3D Tri-Color PLA. I "designed" my print in onshape which you can view [here](https://cad.onshape.com/documents/e05a0dd7ea2ee930ef19f509/w/363c64096a91fd33f326efd6/e/3cf24c62aeac33bff228997d?renderMode=0&uiState=66fca4ea0cfcd85cc14b9c2e). I use quotation marks because the design only consisted of projecting a helix from a cone to make an Archimedean spiral, giving the spiral some width, and extruding it upwards. I tried to make the spiral width only slightly bigger than the diameter of my nozzle so the Bambu Slicer would print it as one continuous strand. I found it rather amusing that by printing in a spiral you both respected the size constraints of the build plate and made a self supporting structure. Thanks to [Gauss’s Theorema Egregium](https://en.wikipedia.org/wiki/Theorema_Egregium), the same theorem that says to bend your pizza when you eat it so it doesn’t droop, I was sure that the curvature of the spiral would keep the structure supported in the z direction.
