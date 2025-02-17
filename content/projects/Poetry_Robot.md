@@ -1,7 +1,6 @@
 +++
 author = "JD Hagood"
 title = "Reciept Poetry Printing Robot"
-date = "2024-8-25"
 description = "Poems on Reciepts"
 tags = [
 ]

@@ -1,7 +1,6 @@
 +++
 author = "JD Hagood"
 title = "MIT Spokes Speaker Kits"
-date = "2024-5-20"
 description = " "
 tags = [
 ]

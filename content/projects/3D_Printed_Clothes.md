@@ -1,7 +1,6 @@
 +++
 author = "JD Hagood"
 title = "3D Printed Clothes"
-date = "2022-11-19"
 description = "3D printed Clothes"
 tags = [
 ]
